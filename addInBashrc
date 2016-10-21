@@ -1,0 +1,23 @@
+# Golang
+export GOPATH=/home/dreddsa/go
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/home/dreddsa/go/bin
+
+# Игнорировать дубликаты в истории и увеличить память команд
+export HISTCONTROL=ignoredups
+export HISTSIZE=1000
+
+# My aliases
+alias c='clear'
+alias update='sudo apt-get update && sudo apt-get upgrade -y'
+alias ll='ls -la --color=auto'
+alias l='ls --color=auto'
+alias mount='mount | column -t'
+alias h='history'
+alias vi='vim'
+alias ports='netstat -tulanp'
+alias gopwd='cd ~/go/src/github.com/dreddsa5dies/'
+alias propwd='cd ~/projects/github.com/dreddsa5dies/'
+alias gr='go run'
+alias gt='go test'
+alias gtb='go test --bench=.'
