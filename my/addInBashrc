@@ -4,8 +4,11 @@ export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/home/dreddsa/go/bin
 
 # Игнорировать дубликаты в истории и увеличить память команд
+# а также мусор из mc и команды начинающиеся с пробелов
 export HISTCONTROL=ignoredups
 export HISTSIZE=1000
+export HISTCONTROL=ignoreboth
+export HISTCONTROL=ignorespace
 
 # My aliases
 alias c='clear'
@@ -21,3 +24,4 @@ alias propwd='cd ~/projects/github.com/dreddsa5dies/'
 alias gr='go run'
 alias gt='go test'
 alias gtb='go test --bench=.'
+alias shD='sudo shutdown -h now'

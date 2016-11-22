@@ -1,0 +1,16 @@
+set history=500					" сохранять историю в 500 команд
+set ruler						" показывать курсор всегда
+set showcmd						" показывать невыполненые команды
+set incsearch					" do incremental searching
+set nrformats=					" считать все числа десятичными
+set number						" отображать номера строк
+set colorcolumn=120				" вертикальная линия после 120 символов
+set tabstop=4					" ширина табуляции
+set softtabstop=4				" ширина таба при использовании всесто него пробелов
+set shiftwidth=4				" ширина отступа для Ctr+>>
+set smarttab					" ширина отступа для Tab
+set autoindent					" копирует отступ с предыдущей строки
+set expandtab					" замена в режиме вставки таб на 4 пробела
+set smartindent					" выставление интеллектуальных отстпов по коду
+set backupdir=~/.vim/backup/	" сохранять временные файлы сюда
+set directory=~/.vim/backup/	" то же самое
