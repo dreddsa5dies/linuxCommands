@@ -9,5 +9,6 @@ for FILE in *.jpg; do
 mv -v "${FILE}" "${i}.jpg"
 i=$((i+1))
 done
-jpegoptim -m50 *.jpg
+jpegoptim -m50 *.jpg 
+echo "ГОТОВО"
 exit 0
